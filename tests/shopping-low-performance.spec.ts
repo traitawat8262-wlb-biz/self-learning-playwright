@@ -5,7 +5,7 @@ test('Add item to cart and submit order', async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
 
     // Log in
-    await page.locator('[id="user-name"]').fill('standard_user');
+    await page.locator('[id="user-name"]').fill('performance_glitch_user');
     await page.fill('#password', 'secret_sauce');
     await page.click('#login-button');
 
